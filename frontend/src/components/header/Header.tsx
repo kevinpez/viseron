@@ -15,6 +15,7 @@ import { useContext, useRef, useState } from "react";
 import { Link as RouterLink, useNavigate } from "react-router-dom";
 import ViseronLogo from "svg/viseron-logo.svg?react";
 
+// import ViseronLogo from "svg/viseron-logo.svg?react";
 import Breadcrumbs from "components/header/Breadcrumbs";
 import { useAuthContext } from "context/AuthContext";
 import { ColorModeContext } from "context/ColorModeContext";
@@ -129,7 +130,9 @@ export default function AppHeader({ setDrawerOpen }: AppHeaderProps) {
               aria-label="Home"
               sx={{ marginLeft: "16px" }}
             >
-              <ViseronLogo
+              <img
+                src="/path/to/viseron-logo.png"
+                alt="Viseron Logo"
                 width={45}
                 height={45}
                 style={{ marginTop: "4px" }}

@@ -8,6 +8,7 @@ import { useReducer } from "react";
 import { Navigate } from "react-router-dom";
 import ViseronLogo from "svg/viseron-logo.svg?react";
 
+// import ViseronLogo from "svg/viseron-logo.svg?react";
 import { TextFieldItem, TextFieldItemState } from "components/TextFieldItem";
 import { useAuthContext } from "context/AuthContext";
 import { useTitle } from "hooks/UseTitle";
